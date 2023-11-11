@@ -55,7 +55,7 @@ image.src = imageFiles[counter];
 applyColors(counter, colors);
 
 // Listens for clicks on the image
-imageDiv.addEventListener("click", function() {
+imageDiv.addEventListener("click", function () {
   // Add a class to the image element
   image.classList.add("fade-out");
 
@@ -71,6 +71,6 @@ imageDiv.addEventListener("click", function() {
 
     // Apply colors
     applyColors(counter, colors);
-     // 200 sets time of 0.2s for transition
+    // 200 sets time of 0.2s for transition
   }, 200);
 });
